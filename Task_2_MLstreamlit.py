@@ -14,7 +14,7 @@ X = zoo.data.features
 y = zoo.data.targets 
 
 # Streamlit UI
-st.title("Animal Classification App")
+st.title("Zoo Dataset Classification App")
 
 # Allow the user to choose the classifier
 classifier_option = st.selectbox("Choose a Classifier", ["Random Forest", "Gradient Boosting", "Logistic Regression"])
